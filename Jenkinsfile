@@ -42,6 +42,9 @@ pipeline {
         stage('Deploy to AWS') {
             steps {
                 // Add deployment steps (e.g., ECS, EKS, EC2)
+                echo 'Deploying to AWS...'
+                // Example placeholder command
+                // sh 'aws deploy ...'
             }
         }
     }
@@ -52,3 +55,4 @@ pipeline {
         }
     }
 }
+
